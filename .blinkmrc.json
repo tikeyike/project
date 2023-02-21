@@ -1,0 +1,16 @@
+{
+  "server": {
+    "project": "",
+    "cors": true,
+    "routes": [
+      {
+        "route": "/qr-code-generation",
+        "module": "./routes/qr-code-generation.js"
+      },
+      {
+        "route": "/chart-generation",
+        "module": "./routes/chart-generation.js"
+      }
+    ]
+  }
+}
